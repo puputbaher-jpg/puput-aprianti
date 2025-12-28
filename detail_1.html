@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>kenal puput lebih dalam yuuu</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.project-container {
+			background-color: rgb(230, 222, 222);
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(224, 29, 159, 0.5);
+		}
+		.full-width-image {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.breadcrumb {
+			padding: 20px;
+			background-color: lightslategray;
+			font-family: 'IBM Plex Mono', monospace;
+			font-size: 14px;
+		}
+		.breadcrumb a {
+			color: rgb(41, 25, 25);
+			text-decoration: none;
+		}
+		.breadcrumb a:hover {
+			text-decoration: underline;
+		}
+		.project-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 50pt;
+			transform: translate(-50%, -50%);
+			color: cream (151, 85, 85);
+			text-align: center;
+			text-shadow: 2px 2px 4px lightslategray (117, 113, 113, 0.5);
+		}
+		.image-container {
+			position: relative;
+		}
+		
+		/* Slider Styles */
+		.project-slider {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+		.slider-container {
+			display: flex;
+			transition: transform 0.5s ease;
+			width: 300%;
+		}
+		.slider-slide {
+			width: 33.33%;
+			flex-shrink: 0;
+		}
+		.slider-slide img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.slider-controls {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			gap: 10px;
+		}
+		.slider-dot {
+			width: 10px;
+			height: 10px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 50%;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.slider-dot.active {
+			background-color: lightgray;
+		}
+		
+		/* Slider Checkbox Hack */
+		.slider-toggle {
+			display: none;
+		}
+		#slide1:checked ~ .slider-container {
+			transform: translateX(0);
+		}
+		#slide2:checked ~ .slider-container {
+			transform: translateX(-33.33%);
+		}
+		#slide3:checked ~ .slider-container {
+			transform: translateX(-66.66%);
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://www.instagram.com/pptaprianti_baher?igsh=cXhnZDkwYW13bTVs&utm_source=qr">instagram</a></li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="pantai2.jpeg" class="full-width-image" alt="Cosmetics Branding Project">
+			<h1 class="project-title">HAIII KENAL PUPUT<br>LEBIH DALAM YUUU</h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="index.html"></Details></a>HAIII SELAMAT MEMBACA YAAA🙇🏼‍♀️🙇🏼‍♀️
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>A Glimpse of Me</h2>
+						<p>Saya Puput Aprianti, berdomisili di Kota Palu. Sebagai anak pertama dari dua bersaudara, saya terbiasa belajar bertanggung jawab dan mandiri sejak dini. Saat ini saya sedang menempuh pendidikan di bidang Information Technology, sebuah proses yang membentuk cara berpikir saya agar lebih logis, adaptif, dan terbuka terhadap perubahan.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Where Music Began</h2>
+							<li>My connection with music started from traditional sounds. Tahun 2018 menjadi momen penting bagi saya ketika ikut tampil dalam pertunjukan musik sekota Palu bersama Palu Salonde Percussion, di Hutan Kota, dalam rangka perayaan HUT Kota Palu. Sejak saat itu, music is not just a sound, but a part of my journey.<l>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Slow Living & Healing Moments</h2>
+							<li>Beyond music, I find joy in fashion and simple moments. Nongkrong santai, dan menghabiskan waktu di pantai menjadi cara saya menenangkan diri. Pantai-pantai di Donggala, seperti Pusat Laut dan Bonebula, selalu memberi rasa tenang—a place where I reconnect with myself.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>  
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Dreams in Progress</h2>
+							<li>I am also deeply interested in entrepreneurship. Saya menikmati proses menjual, berinteraksi, dan mengembangkan ide. Bagi saya, every small step matters. Ke depan, saya ingin membangun sesuatu yang bermakna dengan menggabungkan teknologi, kreativitas, dan passion yang saya miliki.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>mau tau lebih dalam lagi? yuuu ke instagram aja🙆🏼‍♀️</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="kaca.jpeg" alt="biodata">
+								</div>
+								<div class="slider-slide">
+									<img src="coding.jpeg" alt="hewan kesukaan">
+								</div>
+								<div class="slider-slide">
+									<img src="fashion5.jpeg" alt="makanan favorit">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+		<h2>klik aja<br>
+			instagram<br><a href="https://www.instagram.com/pptaprianti_baher?igsh=cXhnZDkwYW13bTVs&utm_source=qr" class="__cf_instagram__" data-instagram=""="a2c3ccc6cbc3ccd8c3ccd7cee2c5cfc3cbce8cc1cdcf">[pptaprianti_baher]</a></h2>
+			<p>kenal lebih dekat by puput aprianti</p>
+		</footer>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0979519352d845179b7d0b6ab2feaaab","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9b395f4e9e09f922',t:'MTc2NjY3NjU0OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	</html>
